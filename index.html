@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div class="illustration"></div>
+    <div class="illustration-2"></div>
+    <div class="hero">
+        <div class="iphone">
+            <div class="iphone-inner">
+                <div class="top-bar"><div class="top-bar-inner"></div></div>
+                <div class="profile">
+                    <div class="back-avtar">
+                        <div class="back"><i class="fas fa-chevron-left"></i></div>
+                        <div class="avtar">
+                            <img src="images/avatar.jpg" alt="avatar" class="avtar-img">
+                            <div class="details">
+                                <h1 class="name">Samuel Green</h1>
+                                <p class="online">Available to walk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="three-dot">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chat-1 chats">That sound's great. I'd be happy with that</div>
+                    <div class="chat-2 chats">Could you send over some pictures of your dog. please?</div>
+                    <div class="my-chat">
+                        <div class="chat-3 chats-img">
+                            <img src="images/dog-image-1.jpg" alt="img" class="img-1 img">
+                            <img src="images/dog-image-3.jpg" alt="img" class="img-3 img">
+                        </div>
+                        <div class="chat-4 my-chats">Here are a few pictures. She's a happy girl</div>
+                        <div class="chat-5 my-chats">Can you make it?</div>
+                    </div>
+                    <div class="chat-6 chats">She looks so happy! The time we discussed works. How long shall I take her out far?</div>
+                    <div class="chat-7 payment-chat">
+                        <div class="circle"></div>
+                        <div class="time">30 minute walk</div>
+                        <div class="price">$29</div>
+                    </div>
+                    <div class="chat-8 payment-chat">
+                        <div class="circle"></div>
+                        <div class="time">1 hour walk</div>
+                        <div class="price">$49</div>
+                    </div>
+                    <div class="send-chat">
+                        <input type="text" class="type">
+                        <div class="send"><i class="fas fa-chevron-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1 class="title">Simple Booking</h1>
+            <p class="info">Stay in touch with our dog walkers through the chat interfearnce. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all the chat.</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script>
+        gsap.to(".chat-1", {opacity: 1});
+        gsap.to(".chat-2", {opacity: 1, delay: 1});
+        gsap.to(".chat-3", {opacity: 1, delay: 2});
+        gsap.to(".chat-4", {opacity: 1, delay: 3});
+        gsap.to(".chat-5", {opacity: 1, delay: 4});
+        gsap.to(".chat-6", {opacity: 1, delay: 5});
+        gsap.to(".chat-7", {opacity: 1, delay: 6});
+        gsap.to(".chat-8", {opacity: 1, delay: 7});
+    </script>
+       
+</body>
+</html>

@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #f5f0f048;
+}
+
+.illustration{
+    position: absolute;
+    height: 85vh;
+    width: 30%;
+    background: hsl(264, 100%, 61%);
+    border-bottom-left-radius: 25rem;
+    border-bottom-right-radius: 25rem;
+    z-index: -1;
+}
+
+.illustration-2{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    height: 90vh;
+    width: 30%;
+    background: hsl(264, 100%, 61%);
+    z-index: -1;
+    border-top-left-radius: 25rem;
+    border-top-right-radius: 25rem;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone{
+    padding-right: 5%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.iphone-inner{
+    height: 37rem;
+    width: 20.25rem;
+    border: 15px solid #fff;
+    border-radius: 2.5rem;
+    position: relative;
+    box-shadow: 0 5px 20px 0px #696262;
+}
+
+.top-bar{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 4;
+}
+
+.top-bar-inner{
+    width: 60%;
+    height: 100%;
+    background: #fff;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+
+.profile{
+    height: 16%;
+    width: 100%;
+    background: linear-gradient(to right, hsl(293,100%, 63%),hsl(264, 100%,61%));
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.back-avtar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.back{
+    width: 20%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.avtar{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.avtar-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 7.5px;
+}
+
+.name{
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+.online{
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+.three-dots{
+    cursor: pointer;
+    color: #fff;
+}
+
+.chat{
+    height: 85%;
+    width: 100%;
+    background: hsl(270, 20%, 96%);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    transform: translate(0%, -1%);
+    padding-right: 15px;
+}
+
+.content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    color: rgb(92, 0, 92);
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.info{
+    opacity: .7;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    width: 70%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.chats{
+    opacity: 0;
+    padding: 7px;
+    font-size: 11px;
+    width: 60%;
+    margin-bottom: 7.5px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(276, 86%, 72%);
+    border-radius: 2px;
+    background: hsla(276, 48%, 87%, 0.514);
+}
+
+.payment-chat{
+    opacity: 0;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-bottom: 3.5px;
+    border-radius: 10px;
+}
+
+.my-chats{
+    padding: 7px;
+    width: 60%;
+    margin-bottom: 7.5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.my-chat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chat-3{
+    opacity: 0;
+}
+.chat-4{
+    opacity: 0;
+}
+.chat-5{
+    opacity: 0;
+}
+
+.payment-chat{
+    padding: 10px;
+    font-size: 11px;
+    width: 70%;
+    margin-bottom: 7.5px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: .35rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 5px;
+    background: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle{
+    width: 17.5px;
+    height: 17.5px;
+    border: 1px solid hsl(289, 100%, 72%);
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.time{
+    color: rgba(241, 248, 250, 0.87);
+    font-weight: 400;
+}
+
+.price{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.send-chat{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10rem;
+}
+
+.type{
+    border: none;
+    outline-width: 0;
+    padding: 20px;
+    background: transparent;
+}
+
+.send{
+    width: 2rem;
+    height: 100%;
+    background: hsl(271, 36%, 24%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chat-8{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 990px){
+    .hero{
+        flex-direction: column;
+        justify-content: initial;
+    }
+    .iphone{
+        padding-right: 0;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+    .content{
+        width: 100%;
+        align-items: center;
+    }
+    .illustration{
+        height: 60vh;
+    }
+}
